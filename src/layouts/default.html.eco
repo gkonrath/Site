@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%- @getBlock("styles").add(["https://fonts.googleapis.com/css?family=Lato:300,400,700", "https://npmcdn.com/z-grid/dist/style.css", "/styles/style.css"]).toHTML() %>
+  <title><%= @document.title %></title>
+</head>
+<body>
+  <main class="main"><%- @content %></main>
+  <%- @getBlock("scripts").toHTML() %>
+</body>
+</html>
