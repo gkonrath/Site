@@ -1,0 +1,14 @@
+{
+  "name": "gk-site",
+  "version": "1.0.0",
+  "description": "Guilherme Konrath's quiroprathic clinic website",
+  "dependencies": {
+    "docpad": "~6.78.4",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-livereload": "~2.7.1"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/.bin/docpad-server"
+  }
+}

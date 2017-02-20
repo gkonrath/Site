@@ -1,0 +1,3 @@
+docpadConfig = {}
+
+module.exports = docpadConfig

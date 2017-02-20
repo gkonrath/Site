@@ -1,0 +1,8 @@
+# Use only Unix line feeds
+*.json   text eol=lf
+*.js     text eol=lf
+*.coffee text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+*.md     text eol=lf
+*.eco    text eol=lf
